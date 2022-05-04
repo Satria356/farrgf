@@ -217,7 +217,7 @@ user.afkReason = ''
 // Detect Group Invite
 if (m.mtype === 'groupInviteMessage') {
 teks = `Ketik join untuk bergabung ke group whatsapp anda`
-sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./worker/media/image/Fara.jpg'), 2022, "FARBOT~MD", "6283811034750@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "FARBOT~MD", "6283811034750@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
 // AntiLink
@@ -265,7 +265,7 @@ if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaklagu[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Farbot", m)
+await sock.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebaklagu[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -274,7 +274,7 @@ if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakgambar[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Farbot", m)
+await sock.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebakgambar[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -283,7 +283,7 @@ if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkata[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Farbot", m)
+await sock.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebakkata[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -293,7 +293,7 @@ kuis = true
 jawaban = caklontong[m.sender.split('@')[0]]
 deskripsi = caklontong_desk[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© Farbot", m)
+await sock.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
@@ -303,7 +303,7 @@ if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkalimat[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Farbot", m)
+await sock.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebakkalimat[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -312,7 +312,7 @@ if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaklirik[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Farbot", m)
+await sock.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebaklirik[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -321,7 +321,7 @@ if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaktebakan[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Farbot", m)
+await sock.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebaktebakan[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -610,7 +610,7 @@ const fgclink = {
 },
 "message": {
 "groupInviteMessage": {
-"groupJid": "6283811034750-1616169743@g.us",
+"groupJid": "6288213840883-1616169743@g.us",
 "inviteCode": "mememteeeekkeke",
 "groupName": "P", 
 "caption": "Halo bang jagoo", 
@@ -627,11 +627,11 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
  "videoMessage": { 
- "title":"Farbot",
+ "title":"ZackMans Official",
  "h": `Hmm`,
  'seconds': "30", 
  'gifPlayback': 'true', 
- 'caption': 'Fara',
+ 'caption': 'ZackMans Official',
  'jpegThumbnail': log0
 }
 }
@@ -666,8 +666,21 @@ message: {
 }
 } 
 }
- *FARBOT - MULTI ~ DEVICE*
- 
+   let head = `╭───╼[ *FARBOTZ-FARA* ]╾─`
+   let left = "│"
+   let branch = "├"
+   let bracketmenu = "┞─╼「"
+   let F = "」"
+   let A = "┟"
+   let B = "┞"
+   let stick = "╿"
+   let borderlist = "╭╾───────────────╼╮"
+   let borderlistend = "╰╾───────────────╼╯"
+   let opener = "╭─────────────────╮"
+   let closing = "╰─────────────────╯"
+   let headtqto = "╭╾─「 Thanks To 」╾───╮"
+   let endbordertqto = "╰╾───────────────╾╯"
+   let end = "╰╾────────────────╼▢"
 const listmn = `
 ${head}
 ${left}
@@ -1288,7 +1301,7 @@ case 'watercolor': case 'multicolor': case 'neondevil': case 'underwater': case 
 case 'chocolate': case 'strawberry': case 'matrix': case 'blood': case 'dropwater': case 'toxic': 
 case 'lava': case 'rock': case 'bloodglas': case 'hallowen': case 'darkgold': case 'joker': case 'wicker':
  case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': case '1917': case 'leaves': {
-             	if (!q) return m.reply(`Example : ${prefix + command} Fara`) 
+             	if (!q) return m.reply(`Example : ${prefix + command} Fara chan`) 
              	m.reply(mess.wait)
              	let link
              	if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
@@ -1373,13 +1386,13 @@ m.reply(`${getCase(q)}`)
 break
 case 'menu': case 'help': {
 if (isBan) return m.reply(mess.ban)
-let message = await prepareWAMessageMedia({ video: fs.readFileSync('./worker/media/video/Fara.mp4'), gifPlayback:true, jpegThumbnail:global.log0 }, { upload: sock.waUploadToServer })
+let message = await prepareWAMessageMedia({ video: fs.readFileSync('./worker/media/video/Deff.mp4'), gifPlayback:true, jpegThumbnail:global.log0 }, { upload: sock.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
 hydratedTemplate: {
 videoMessage: message.videoMessage,
 hydratedContentText: listmn,
-hydratedFooterText: "© Farbot",
+hydratedFooterText: "© FARA ~ CHAN",
 hydratedButtons: [{
 urlButton: {
 displayText: 'Group Whatsapp',
@@ -1388,7 +1401,7 @@ url: linkgrupss
 }, {
 urlButton: {
 displayText: 'Instagram',
-url: 'https://instagram.com/deff.xyz'
+url: 'https://instagram.com/farachan56'
 }
 }, {
 quickReplyButton: {
@@ -1499,7 +1512,7 @@ tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Farbot", m)
+sock.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebaklagu[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'gambar') {
@@ -1512,7 +1525,7 @@ tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`,"© Farbot", m)
+sock.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`,"© FARA ~ CHAN", m)
 delete tebakgambar[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'kata') {
@@ -1525,7 +1538,7 @@ tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Farbot", m)
+sock.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebakkata[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'kalimat') {
@@ -1538,7 +1551,7 @@ tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Farbot", m)
+sock.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebakkalimat[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'lirik') {
@@ -1551,7 +1564,7 @@ tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Farbot", m)
+sock.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete tebaklirik[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'lontong') {
@@ -1565,7 +1578,7 @@ caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
 await sleep(60000)
 if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Farbot", m)
+sock.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© FARA ~ CHAN", m)
 delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
 }
@@ -1709,7 +1722,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© Farbot ~ Fara Chan",
+footer: "© FARA ~ CHAN",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -1753,7 +1766,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -1798,7 +1811,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -2181,7 +2194,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4
 }
@@ -2205,7 +2218,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4
 }
@@ -2231,7 +2244,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4
 }
@@ -2254,7 +2267,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4
 }
@@ -2428,7 +2441,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 FARBOT ~ MD」*\n\nChange Info, Select Open Or Close`,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4
 }
@@ -2454,7 +2467,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 FARBOT ~ MD」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4
 }
@@ -2511,7 +2524,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url: 'https://github.com/FaraChan56/'
+url: 'https://github.com/FARA56/'
 }
 }, {
 urlButton: {
@@ -2535,7 +2548,7 @@ id: 'sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(i, txt, "© Farbot", log0, btn, thum)
+sock.send5ButImg(i, txt, "© FARA ~ CHAN", log0, btn, thum)
 }
 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
@@ -2551,7 +2564,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url: 'https://github.com/Farachan56'
+url: 'https://github.com/FARA56'
 }
 }, {
 urlButton: {
@@ -2575,14 +2588,14 @@ id: 'sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(yoi, txt, "© Farbot", log0, btn, thum)
+sock.send5ButImg(yoi, txt, "© FARA ~ CHAN", log0, btn, thum)
 }
 m.reply('Sukses Broadcast')
 }
 break
 case 'sc': case 'script': case 'donate': case 'donasi': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `「 FARBOT ~ MD」\nhttps://github.com/Satria356/plugins`
-teks += `Dont Forget Donate`
+teks = `「 FARBOT ~ MD」\n nekopi.care `
+teks += `Dont Forget Donate dana: 083811034750`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu'}, type: 1}
 ]
@@ -2596,7 +2609,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title:"FARBOT ~ MD Qris ( Donate )",
 body: "©FARA", 
-thumbnail: fs.readFileSync("worker/media/image/Fara.jpg"),
+thumbnail: fs.readFileSync("worker/media/image/Deff.jpg"),
 mediaType:1,
 mediaUrl: 'https://telegra.ph/file/40762e97a434e17ba3d75.jpg',
 sourceUrl: "https://telegra.ph/file/40762e97a434e17ba3d75.jpg"
@@ -2663,7 +2676,7 @@ content: [{ tag: "invite", attrs: { code: vcc } }]
 sizny = res.content[0].attrs.size
 if (sizny < 50) {
 teks = `Maaf anggota group anda kurang dari 50, minimal agar bot join harus mempunyai lebih dari 50 anggota`
-sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./worker/media/image/Fara.jpg'), 2022, "FARBOT~MD", "6283811034750@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "FARBOT~MD", "6283811034750@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
 } else if (sizny > 50) {
 await sock.groupAcceptInvite(vcc).then(async(res) => m.reply(jsonformat(res))).catch(_ => _)
 m.reply("Succes")
@@ -3012,12 +3025,12 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Farbot By Fara",
-body:"© Farbot",
+title:"FARBOT BY FARA ",
+body:"© FARA ~ CHAN",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3055,12 +3068,12 @@ let buttons = [
 let buttonMessage = {
 image: { url: imgnyee },
 caption:  '⭔ Title : ' + args.join(" ") + '\n⭔ Media Url : '+imgnyee,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Farbot By Fara",
-body:"© Farbot",
+title:"FARBOT BY FARA",
+body:"© FARA ~ CHAN",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3076,7 +3089,7 @@ m.reply("Error")
 break
 case 'igstory': case 'instagramstory': {
 if (isBan) return m.reply(mess.ban)
-if (!args[0]) return m.reply(`Example :\n${prefix + command} deff.xyz`)
+if (!args[0]) return m.reply(`Example :\n${prefix + command} Fara Chan`)
 try {
 hx.igstory(args[0]).then(async(resed) => {
 ini_anu = []
@@ -3099,7 +3112,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4
 }
@@ -3135,7 +3148,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4
 }
@@ -3161,8 +3174,8 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 sock.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"Farbot By Fara",
-body:"© Farbot",
+title:"FARBOT",
+body:"© FARA ~ CHAN",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3178,8 +3191,8 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 sock.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"Farbot By Fara",
-body:"© Farbot",
+title:"FATBOT",
+body:"© FARA ~ CHAN",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3210,11 +3223,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Farbot ~ Twitter Downloader",
+title:"Farbot Official ~ Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3236,11 +3249,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Farbot ~ Twitter Downloader",
+title:"Farbot Official ~ Twitter Downloader",
 body: "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3269,11 +3282,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Farbot ~ Facebook Downloader",
+title:"Farbot Official ~ Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3295,11 +3308,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Farbot ~ Facebook Downloader",
+title:"Farbot Official ~ Facebook Downloader",
 body: " Facebook Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3329,11 +3342,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[1].url},
 caption: texttk,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Farbot ~ Tiktok Downloader",
+title:"Farbot Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -3351,7 +3364,7 @@ case 'ttad': {
 if (isBan) return m.reply(mess.ban)
 let res = await aiovideodl(args[0])
 sock.sendMessage(from, {audio:{url:res.medias[2].url}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"Farbot ~ Tiktok Downloader",
+title:"Farbot Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -3376,11 +3389,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[0].url},
 caption: texttk,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Farbot ~ Tiktok Downloader",
+title:"Farbot Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -3415,12 +3428,12 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© Farbot",
+body: "© FARA ~ CHAN",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -3449,12 +3462,12 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© Farbot",
+footer: "© FARA ~ CHAN",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© Farbot",
+body: "© FARA ~ CHAN",
 thumbnail: {url:res.thumb},
 mediaType:2,
 mediaUrl: args[0],
@@ -3471,8 +3484,8 @@ break
 case 'ytvd': {
 if (isBan) return m.reply(mess.ban)
 sock.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"Farbot By Fara",
-body:"© Farbot",
+title:"FARBOT",
+body:"© FARA ~ CHAN",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3483,8 +3496,8 @@ break
 case 'ytad': {
 if (isBan) return m.reply(mess.ban)
 sock.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"Farbot By Fara",
-body:"© Farbot",
+title:"FARBOT",
+body:"© FARA ~ CHAN",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3600,7 +3613,7 @@ sock.sendReadReceipt(m.chat, m.sender, [m.key.id])
 sock.sendMessage(from, {sticker:sendNye, contextInfo:{forwardingScore: 800, isForwarded: true}}, {quoted:m})
 }
 // Antitag Via Tag ( BY MyMans APIs )
-if (budy.includes("@6283168004413")) {
+if (budy.includes("@6289501060783")) {
 if (antitags === false) return
 if (!m.isGroup) return
 if (m.key.fromMe) return
